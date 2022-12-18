@@ -1,0 +1,133 @@
+* {
+    font-family: 'Jost', sem serifa;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(144, 160, 173, 0.897);
+}
+
+main {
+  
+    background-image: url(./img/diego-ph-fIq0tET6llw-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    align-items: center;
+    
+    width:50% ;
+    min-width: 500px;
+   
+    height: 60vh;
+    min-height: 500px;
+   
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    -webkit-box-shadow: 2px 4px 16px 7px rgba(0,0,0,0.81); 
+box-shadow: 2px 4px 16px 7px rgba(0,0,0,0.81);
+}
+
+h2 {
+
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 20px;
+    outline: none;
+    font-weight: 100;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.btns{
+    display: flex;
+    gap: 60px;
+}
+
+.btn{
+    width: 100px;
+    padding: 5px 0;
+    border: none;
+    font-size: 1.1rem; 
+    font-weight: 700;
+    
+}
+
+
+.gerar {
+    background-color:#11644d;
+}
+
+.limpar{
+    background-color: red;
+}
+
+ .btn:hover{
+    -webkit-box-shadow: 2px 4px 16px 7px rgba(0,0,0,0.81); 
+    box-shadow: 2px 4px 16px 7px rgba(0,0,0,0.81);
+}
+
+
+@media screen and (max-width: 640px) {
+
+    main{
+        display: flex;
+       
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+
+    }
+
+    h2 {
+
+        font-size: 1.7rem;
+        font-weight: 800;
+        margin-bottom: 20px;
+    }
+    .btns{
+        display: flex;
+        gap: 20px;
+    }
+   
+    
+
+}
+
+@media screen and (min-width: 1110px) {
+
+    main{
+
+        max-width: 600px;
+ 
+    }
+
+    h2 {
+
+        font-size: 1.7rem;
+        font-weight: 800;
+        margin-bottom: 20px;
+    }
+    
+
+}
+
