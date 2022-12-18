@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 body {
@@ -99,15 +100,18 @@ input {
 
     main{
         display: flex;
-       
         justify-content: center;
         width: 100%;
         height: 100vh;
+       
 
+    }
+    p{
+        font-size: 2rem;
     }
 
     h2 {
-
+        display: block;
         font-size: 1.7rem;
         font-weight: 800;
         margin-bottom: 20px;
@@ -116,7 +120,16 @@ input {
         display: flex;
         gap: 20px;
     }
+
+    .content{
+        display: flex;
+        justify-content: center;
+        
+    }
    
+
+
+    
     
 
 }
