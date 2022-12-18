@@ -97,6 +97,10 @@ input {
 
 
 @media screen and (max-width: 640px) {
+    
+    *{
+        overflow-x: hidden;
+    }
 
     main{
         display: flex;
@@ -116,16 +120,14 @@ input {
         font-weight: 800;
         margin-bottom: 20px;
     }
+
+
     .btns{
         display: flex;
         gap: 20px;
     }
 
-    .content{
-        display: flex;
-        justify-content: center;
-        
-    }
+  
    
 
 
